@@ -1,7 +1,11 @@
+```javascript
 // Complete the function using object destructuring.
 
 function getStudentDetails(students) {
-    // Write your code here
+    return students.map(({ name, age, grade }) => {
+        return `${name} ${age} ${grade}`;
+    });
 }
 
 module.exports = getStudentDetails;
+```
