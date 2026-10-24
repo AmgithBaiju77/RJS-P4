@@ -1,4 +1,4 @@
-```javascript
+
 // Complete the function using object destructuring.
 
 function getStudentDetails(students) {
@@ -8,4 +8,3 @@ function getStudentDetails(students) {
 }
 
 module.exports = getStudentDetails;
-```
